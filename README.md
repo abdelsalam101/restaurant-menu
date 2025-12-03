@@ -1,16 +1,48 @@
-# React + Vite
+# 🍽️ The Gourmet Menu Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React + Tailwind** restaurant menu that takes you on a **culinary journey through fine dining**. Test your appetite, explore famous dishes, and track your favorites — all with elegant design and persistent filtering. 🥗
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* 🧠 29 mouthwatering meals across Breakfast/Lunch/Dinner
+* 🖌️ Beautiful restaurant-themed interface
+* 🔍 Real-time search filtering while typing
+* 🍽️ Multi-category filter toggles (Breakfast/Lunch/Dinner)
+* 📱 Responsive design for all devices
+* ⚡ Performance optimized with useMemo
 
-## React Compiler
+## ⚡ Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
+Then open [http://localhost:5173](http://localhost:5173) in your browser 🌐
 
-## Expanding the ESLint configuration
+## 🗂️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ⚛️ **React + Vite**
+* 🎨 **Tailwind CSS**
+* 🧙‍♂️ **Custom Hooks** (`useMemo`)
+* 💾 **Local Meals Data** (29 dishes with real photos)
+* 📸 **Unsplash Images** (verified food photos)
+
+## 🗂️ Folder Structure
+
+```
+src/
+├─ components/
+│ ├─ Menu.jsx
+│ ├─ SearchBar.jsx
+│ ├─ CategoryFilter.jsx
+│ └─ MealCard.jsx
+├─ data/
+│ └─ meals.js
+├─ App.jsx
+├─ index.css
+└─ main.jsx
+```
+
+## 🌐 Live Demo
+
+Check out the app online: [Le Petit Gourmet](https://restaurant-menu-eight-umber.vercel.app/) 🚀
